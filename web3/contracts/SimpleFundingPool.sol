@@ -37,6 +37,8 @@ contract SimpleFundingPool is Ownable {
     event Borrowed(address indexed borrower, uint256 amount);
     event Repaid(address indexed borrower, uint256 amount);
 
+    uint256 public totalInvestedAmount; // Total amount invested by lenders
+
     constructor(address _stablecoin) Ownable(msg.sender) {
         stablecoin = IERC20(_stablecoin);
     }
