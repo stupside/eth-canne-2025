@@ -1,0 +1,12 @@
+zone: xonery.dev
+apps:
+  - target:
+      port: 8080
+      hostname: localhost
+    expose:
+      subdomain: back
+  - target:
+      port: 3000
+      hostname: localhost
+    expose:
+      subdomain: front

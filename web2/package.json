@@ -1,0 +1,32 @@
+{
+  "name": "web2",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@circle-fin/developer-controlled-wallets": "^8.3.0",
+    "@fastify/cors": "^11.0.1",
+    "@fastify/env": "^5.0.2",
+    "@fastify/swagger": "^9.5.1",
+    "@fastify/swagger-ui": "^5.2.3",
+    "@sinclair/typebox": "^0.34.36",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "axios": "^1.10.0",
+    "fastify": "^5.4.0",
+    "fastify-plugin": "^5.0.1",
+    "mediatr-ts": "^2.1.0",
+    "stripe": "^18.2.1",
+    "uuid": "^11.1.0",
+    "viem": "^2.31.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "yarn@4.9.2"
+}
