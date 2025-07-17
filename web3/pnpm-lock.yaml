@@ -9,15 +9,15 @@ importers:
   .:
     dependencies:
       '@openzeppelin/contracts':
-        specifier: ^5.3.0
-        version: 5.3.0
+        specifier: ^5.4.0
+        version: 5.4.0
     devDependencies:
       '@nomicfoundation/hardhat-ignition':
         specifier: 3.0.0-next.21
         version: 3.0.0-next.21(hardhat@3.0.0-next.21)
       '@nomicfoundation/hardhat-toolbox-viem':
         specifier: 5.0.0-next.21
-        version: 5.0.0-next.21(39eaebeebe342911a519e6224cec5fb8)
+        version: 5.0.0-next.21(gev5atgmi4t4tenwxb6psfkuse)
       '@types/node':
         specifier: ^22.16.0
         version: 22.16.0
@@ -457,8 +457,8 @@ packages:
     resolution: {integrity: sha512-q4n32/FNKIhQ3zQGGw5CvPF6GTvDCpYwIf7bEY/dZTZbgfDsHyjJwURxUJf3VQuuJj+fDIFl4+KkBVbw4Ef6jA==}
     engines: {node: '>= 12'}
 
-  '@openzeppelin/contracts@5.3.0':
-    resolution: {integrity: sha512-zj/KGoW7zxWUE8qOI++rUM18v+VeLTTzKs/DJFkSzHpQFPD/jKKF0TrMxBfGLl3kpdELCNccvB3zmofSzm4nlA==}
+  '@openzeppelin/contracts@5.4.0':
+    resolution: {integrity: sha512-eCYgWnLg6WO+X52I16TZt8uEjbtdkgLC0SUX/xnAksjjrQI4Xfn4iBRoI5j55dmlOhDv1Y7BoR3cU7e3WWhC6A==}
 
   '@scure/base@1.1.9':
     resolution: {integrity: sha512-8YKhl8GHiNI/pU2VMaofa2Tor7PJRAjwQLBBuilkJ9L5+13yVbC7JO/wS7piioAvPSwR3JKM1IJ/u4xQzbcXKg==}
@@ -838,6 +838,9 @@ packages:
   zod@3.25.74:
     resolution: {integrity: sha512-J8poo92VuhKjNknViHRAIuuN6li/EwFbAC8OedzI8uxpEPGiXHGQu9wemIAioIpqgfB4SySaJhdk0mH5Y4ICBg==}
 
+  zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
+
 snapshots:
 
   '@actions/core@1.11.1':
@@ -1172,11 +1175,11 @@ snapshots:
       '@noble/hashes': 1.7.1
       '@nomicfoundation/hardhat-errors': 3.0.0-next.21
       '@nomicfoundation/hardhat-utils': 3.0.0-next.21
-      '@nomicfoundation/hardhat-zod-utils': 3.0.0-next.21(zod@3.25.74)
+      '@nomicfoundation/hardhat-zod-utils': 3.0.0-next.21(zod@3.25.76)
       chalk: 5.4.1
       debug: 4.4.1
       hardhat: 3.0.0-next.21
-      zod: 3.25.74
+      zod: 3.25.76
     transitivePeerDependencies:
       - supports-color
 
@@ -1199,14 +1202,14 @@ snapshots:
       '@nomicfoundation/hardhat-errors': 3.0.0-next.21
       '@nomicfoundation/hardhat-node-test-reporter': 3.0.0-next.21
       '@nomicfoundation/hardhat-utils': 3.0.0-next.21
-      '@nomicfoundation/hardhat-zod-utils': 3.0.0-next.21(zod@3.25.74)
+      '@nomicfoundation/hardhat-zod-utils': 3.0.0-next.21(zod@3.25.76)
       hardhat: 3.0.0-next.21
       tsx: 4.20.3
-      zod: 3.25.74
+      zod: 3.25.76
     transitivePeerDependencies:
       - supports-color
 
-  '@nomicfoundation/hardhat-toolbox-viem@5.0.0-next.21(39eaebeebe342911a519e6224cec5fb8)':
+  '@nomicfoundation/hardhat-toolbox-viem@5.0.0-next.21(gev5atgmi4t4tenwxb6psfkuse)':
     dependencies:
       '@nomicfoundation/hardhat-ignition': 3.0.0-next.21(hardhat@3.0.0-next.21)
       '@nomicfoundation/hardhat-ignition-viem': 3.0.0-next.21(@nomicfoundation/hardhat-ignition@3.0.0-next.21(hardhat@3.0.0-next.21))(@nomicfoundation/hardhat-viem@3.0.0-next.21(hardhat@3.0.0-next.21)(viem@2.31.7(typescript@5.8.3)(zod@3.25.74)))(@nomicfoundation/ignition-core@3.0.0-next.21)(hardhat@3.0.0-next.21)(viem@2.31.7(typescript@5.8.3)(zod@3.25.74))
@@ -1238,12 +1241,12 @@ snapshots:
       '@ethersproject/abi': 5.8.0
       '@nomicfoundation/hardhat-errors': 3.0.0-next.21
       '@nomicfoundation/hardhat-utils': 3.0.0-next.21
-      '@nomicfoundation/hardhat-zod-utils': 3.0.0-next.21(zod@3.25.74)
+      '@nomicfoundation/hardhat-zod-utils': 3.0.0-next.21(zod@3.25.76)
       cbor2: 1.12.0
       debug: 4.4.1
       hardhat: 3.0.0-next.21
       semver: 7.7.2
-      zod: 3.25.74
+      zod: 3.25.76
     transitivePeerDependencies:
       - supports-color
 
@@ -1270,6 +1273,13 @@ snapshots:
     dependencies:
       '@nomicfoundation/hardhat-utils': 3.0.0-next.21
       zod: 3.25.74
+    transitivePeerDependencies:
+      - supports-color
+
+  '@nomicfoundation/hardhat-zod-utils@3.0.0-next.21(zod@3.25.76)':
+    dependencies:
+      '@nomicfoundation/hardhat-utils': 3.0.0-next.21
+      zod: 3.25.76
     transitivePeerDependencies:
       - supports-color
 
@@ -1323,7 +1333,7 @@ snapshots:
       '@nomicfoundation/solidity-analyzer-linux-x64-musl': 0.1.2
       '@nomicfoundation/solidity-analyzer-win32-x64-msvc': 0.1.2
 
-  '@openzeppelin/contracts@5.3.0': {}
+  '@openzeppelin/contracts@5.4.0': {}
 
   '@scure/base@1.1.9': {}
 
@@ -1703,3 +1713,5 @@ snapshots:
   ws@8.18.3: {}
 
   zod@3.25.74: {}
+
+  zod@3.25.76: {}
